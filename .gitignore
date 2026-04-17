@@ -1,0 +1,84 @@
+# PHP
+*.php~
+*.phtml
+*.phar
+/vendor/
+composer.lock
+.env
+.env.local
+.env.*.local
+
+# Database Configuration (IMPORTANT - never commit real credentials)
+db.php
+database.php
+config/database.php
+*.sql
+
+# Database files
+*.db
+*.sqlite
+
+# Session files
+sessions/
+*.session
+tmp/
+
+# Uploaded files (user uploads should NOT be in repo)
+uploads/
+uploads/*
+!uploads/.gitkeep
+temp/
+cache/
+logs/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if you ever use Node.js)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
+
+# Composer
+vendor/
+composer.phar
+
+# PHPUnit
+phpunit.phar
+.phpunit.result.cache
